@@ -73,6 +73,12 @@
 			<version>0.8.3</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+          <snapshotRepository>
+          <id>nexus</id>
+          <url>http://13.233.128.233:8081/nexus/content/repositories/snapshots/</url>
+          </snapshotRepository>
+       </distributionManagement>
 
 	<build>
 		<plugins>
